@@ -81,7 +81,7 @@ async function ProductsTable() {
                                     </a>
                                 </DropdownMenuItem>
                                 <DropdownMenuItem asChild>
-                                    <Link href={`/admin/product/${product.id}/edit`}>Edit</Link>
+                                    <Link href={`/admin/products/${product.id}/edit`}>Edit</Link>
                                 </DropdownMenuItem>
                                 <ActiveToggleDropdownItem id={product.id} isAvailableForPurchase={product.isAvailableForPurchase}/>
                                 <DropdownMenuSeparator/>
