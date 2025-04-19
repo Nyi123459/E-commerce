@@ -29,7 +29,7 @@ async function ProductsTable() {
             isAvailableForPurchase: true, 
             _count: {select : {orders: true}}
         },
-        orderBy: {name : "asc"}
+        orderBy: {name : "asc"} 
     })
 
     if(products.length === 0) return <p>No products found</p>
